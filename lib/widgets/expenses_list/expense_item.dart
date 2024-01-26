@@ -24,7 +24,7 @@ class ExpenseItem extends StatelessWidget {
             ),
             Row(
               children: [
-                Text("\$${expense.amount.toStringAsFixed(2)}"),
+                Text(" Rs. ${expense.amount.toStringAsFixed(2)}"),
                 // backward slash is used to print special characters
                 // restrict to 2 decimal places
                 // e.g. 2.3445 -> 2.34
